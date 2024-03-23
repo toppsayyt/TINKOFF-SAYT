@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Tauri&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Tauri&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+  
+  p {
+    font-family: "Truculenta", sans-serif;
+  font-weight: 300;
+  }
+  a {
+    font-family: ‘Open Sans’, sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    }
+    
+    
+    header {
+      background-color: #cfdb24;
+      padding: 10px;
+    }
+    
+    #menu1{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    }
+    
+    #menu1 ul{
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    }
+    #menu1 > ul::after{
+      display: block;
+      width: 100%;
+      height: 0px;
+      clear: both;
+      content: " ";
+      }
+      
+      #menu1 ul li{
+      position: relative;
+      display: block;
+      float: left;
+      width: auto;
+      height: auto;
+      }
+      #menu1 ul li a{
+        display: block;
+        padding: 9px 25px 0px 25px;
+        font-size: 14px;
+        line-height: 1.3em;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        height: 36px;
+        box-sizing: border-box;
+        
+        color: rgb(173, 163, 163);
+        }
+        #menu1 ul li ul{
+          position: absolute;
+          top: 36px;
+          left: 0px;
+          display: none;
+          width: 200px;
+            box-shadow: 10px 10px 15px 0px;
+          background: #cfdb24;
+          }
+          
+          #menu1 ul li:hover ul{
+          display: block;
+          }
+          
+          
+          #menu1 ul li ul li{
+          float: none;
+          width: 100%;
+          }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          .product-card {
+            display: inline-block;
+            flex-direction: column;
+            align-items: center;
+            border: 1px solid #ccc;
+            padding: 16px;
+            border-radius: 4px;
+            margin: 90px;
+            }
+          
+           
+          .product-card__image {
+            margin-bottom: 16px;
+            width: 700px;
+            
+          }
+           
+          .product-card__title {
+            font-size: 50px;
+            font-weight: bold;
+            margin-bottom: 8px;
+            font-family: "Tauri", sans-serif;
+          }
+           
+          .product-card__description {
+            font-size: 25px;
+            margin-bottom: 16px;
+            font-family: "Quicksand", sans-serif;
+          }
+
+          .product-card__image1 {
+            margin-bottom: 16px;
+            width: 570px;
+            
+          }
+
+         
